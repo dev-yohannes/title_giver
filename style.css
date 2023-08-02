@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.parent {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-form {
+  width: 400px;
+  padding: 50px;
+  border: 2px solid black;
+  border-radius: 5px;
+  align-items: center;
+}
+
+#male,
+#married {
+  margin-right: 10px;
+}
+
+.send,
+.clear {
+  width: 45%;
+  border: 1px solid black;
+  height: 25px;
+  border-radius: 5px;
+}
+
+.send:hover,
+.clear:hover {
+  background-color: black;
+  color: white;
+}

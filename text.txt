@@ -1,0 +1,2 @@
+select the element
+how to enter a value on a declared element
