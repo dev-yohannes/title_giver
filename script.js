@@ -12,21 +12,15 @@ function maleMarried() {
 }
 
 function maleNotMarried() {
-  if (maleInput.checked && notMarriedInput.checked) {
-    result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Mr ${nameInput.value}.</span>`;
-  }
+  result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Mr ${nameInput.value}.</span>`;
 }
 
 function femaleMarried() {
-  if (femaleInput.checked && marriedInput.checked) {
-    result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Mrs ${nameInput.value}</span>`;
-  }
+  result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Mrs ${nameInput.value}</span>`;
 }
 
 function femaleNotMarried() {
-  if (femaleInput.checked && notMarriedInput.checked) {
-    result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Ms ${nameInput.value}</span>`;
-  }
+  result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Ms ${nameInput.value}</span>`;
 }
 
 send.addEventListener("click", function (e) {
