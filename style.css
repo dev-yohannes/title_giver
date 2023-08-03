@@ -41,6 +41,10 @@
   color: white;
 }
 
+.new-clear {
+  display: none;
+}
+
 .result {
   text-decoration: underline;
 }
