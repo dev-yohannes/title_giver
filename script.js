@@ -24,7 +24,6 @@ function femaleNotMarried() {
   result.innerHTML = `<span>Hello ${nameInput.value}. Your title is Ms ${nameInput.value}</span>`;
 }
 
-// send event listenener
 send.addEventListener("click", function (e) {
   // data giver about the clicked button, detailed
   // getting users name
@@ -52,7 +51,6 @@ send.addEventListener("click", function (e) {
   }
 });
 
-// clear event listener
 clear.addEventListener("click", function (e) {
   e.preventDefault();
   result.innerHTML = "";
