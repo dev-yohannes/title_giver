@@ -10,31 +10,39 @@
     <div class="parent">
       <h1>Title Finder</h1>
       <form class="container-form">
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" /><br /><br />
-        <label for="gender">Gender:</label>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" />
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" /><br /><br />
-        <label for="marital-status">Marital Status:</label>
-        <br />
-        <label for="married">Married</label>
+        <label class="name-label" for="name">Name:</label>
+        <input class="name-input" type="text" name="name" id="name" /><br />
+        <label class="gender-label" for="gender">Gender:</label>
+        <label class="male-label" for="male">Male</label>
+        <input class="male-input" type="radio" name="gender" id="male" />
+        <label class="female-label" for="female">Female</label>
         <input
+          class="female-input"
+          type="radio"
+          name="gender"
+          id="female"
+        /><br />
+        <label class="marital-status" for="marital-status"
+          >Marital Status:</label
+        >
+        <label class="married-label" for="married">Married</label>
+        <input
+          class="married-input"
           type="radio"
           value="value-1"
           name="marital-status"
           id="married"
         />
-        <label for="not-married">Not Married</label>
+        <label class="not-married-label" for="not-married">Not Married</label>
         <input
+          class="not-married-input"
           type="radio"
           value="value-2"
           name="marital-status"
           id="not-married"
-        /><br /><br />
+        /><br />
         <button class="send" id="send">Send</button>
-        <button class="clear" id="clear">Clear</button><br /><br />
+        <button class="clear" id="clear">Clear</button>
         <span class="result" id="result"></span>
       </form>
     </div>

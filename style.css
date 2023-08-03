@@ -15,16 +15,15 @@
 }
 
 .container-form {
-  width: 500px;
-  padding: 50px;
+  width: fit-content;
+  padding: 20px;
   border: 2px solid black;
   border-radius: 5px;
   align-items: center;
-}
-
-#male,
-#married {
-  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .send,
@@ -33,6 +32,7 @@
   border: 1px solid black;
   height: 25px;
   border-radius: 5px;
+  margin: 5px 0px;
 }
 
 .send:hover,
