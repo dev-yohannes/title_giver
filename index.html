@@ -8,43 +8,56 @@
   </head>
   <body>
     <div class="parent">
-      <h1>Title Finder</h1>
-      <form class="container-form">
-        <label class="name-label" for="name">Name:</label>
-        <input class="name-input" type="text" name="name" id="name" /><br />
-        <label class="gender-label" for="gender">Gender:</label>
-        <label class="male-label" for="male">Male</label>
-        <input class="male-input" type="radio" name="gender" id="male" />
-        <label class="female-label" for="female">Female</label>
-        <input
-          class="female-input"
-          type="radio"
-          name="gender"
-          id="female"
-        /><br />
-        <label class="marital-status" for="marital-status"
-          >Marital Status:</label
-        >
-        <label class="married-label" for="married">Married</label>
-        <input
-          class="married-input"
-          type="radio"
-          value="value-1"
-          name="marital-status"
-          id="married"
-        />
-        <label class="not-married-label" for="not-married">Not Married</label>
-        <input
-          class="not-married-input"
-          type="radio"
-          value="value-2"
-          name="marital-status"
-          id="not-married"
-        /><br />
-        <button class="send" id="send">Send</button>
-        <button class="clear" id="clear">Clear</button>
+      <h1>Want to know your title?</h1>
+      <br />
+      <div class="container-form">
+        <section class="name-section">
+          <label class="name-label" for="name">Name:</label>
+          <input class="name-input" type="text" name="name" id="name" /><br />
+        </section>
+        <br />
+        <section class="gender-section">
+          <label class="gender-label" for="gender">Gender:</label>
+          <label class="male-label" for="male">Male</label>
+          <input class="male-input" type="radio" name="gender" id="male" />
+          <label class="female-label" for="female">Female</label>
+          <input
+            class="female-input"
+            type="radio"
+            name="gender"
+            id="female"
+          /><br />
+        </section>
+        <br />
+        <section class="marital-status-section">
+          <label class="marital-status" for="marital-status"
+            >Marital Status:</label
+          >
+          <label class="married-label" for="married">Married</label>
+          <input
+            class="married-input"
+            type="radio"
+            value="value-1"
+            name="marital-status"
+            id="married"
+          />
+          <label class="not-married-label" for="not-married">Not Married</label>
+          <input
+            class="not-married-input"
+            type="radio"
+            value="value-2"
+            name="marital-status"
+            id="not-married"
+          /><br />
+        </section>
+        <br />
+        <section class="buttons">
+          <button class="send" id="send">Send</button>
+          <button class="clear" id="clear">Clear</button>
+        </section>
+        <br />
         <span class="result" id="result"></span>
-      </form>
+      </div>
     </div>
     <script src="script.js"></script>
   </body>

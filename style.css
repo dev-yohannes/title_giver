@@ -24,19 +24,24 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: space-between;
 }
 
-.send,
-.clear {
-  width: 45%;
+.male-input,
+.married-input {
+  margin-right: 10px;
+}
+
+.buttons button {
+  /* width: 45%; */
+  /* margin: 5px 0px; */
   border: 1px solid black;
   height: 25px;
+  width: 100px;
   border-radius: 5px;
-  margin: 5px 0px;
 }
 
-.send:hover,
-.clear:hover {
+.buttons button:hover {
   background-color: black;
   color: white;
 }
