@@ -25,14 +25,7 @@ function femaleNotMarried() {
 }
 
 send.addEventListener("click", function (e) {
-  // data giver about the clicked button, detailed
-  // getting users name
-
-  // The preventDefault() method cancels the event if it is cancelable, meaning that the default action that belongs to the event will not occur.
-  // default behavior
   e.preventDefault();
-  // console.log(nameInput.value);
-  // nameInput.value;
 
   if (maleInput.checked && marriedInput.checked) {
     maleMarried();
